@@ -1,14 +1,14 @@
 
+import AllRoutes from './AllRoutes'
 import './App.css'
 
-import SidebarWithHeader from './components/SideBar'
 
 function App() {
 
 
   return (
     <>
-     <SidebarWithHeader />
+   <AllRoutes/>
     </>
   )
 }

@@ -1,0 +1,220 @@
+[
+    {
+      "order_id": "OD101",
+      "date": "21/03/2023 13:58:21",
+      "machine_name": "Aahaar Stall 3 (WH101)",
+      "customer_info": {
+        "name": "Simranjeet Kaur",
+        "contact_number": "9999999999",
+        "email": "simranjeet.kaur@kushalhealth"
+      },
+      "order_summary": {
+        "total_amount": 796,
+        "payment_id": "TX1042340284981",
+        "status": "SUCCESS",
+        "refund_info": {
+          "refund_transaction_id": "TX1042340284981",
+          "status": "None"
+        }
+      },
+      "order_details": [
+        {
+          "item_id": "C101",
+          "drink_name": "Mix Berry Smoothie",
+          "customisation": "Low Honey",
+          "amount": 199,
+          "drink_status": "SUCCESS",
+          "action": "Refund"
+        },
+        {
+          "item_id": "C102",
+          "drink_name": "Blueberry Fruit Punch",
+          "customisation": "Low Honey",
+          "amount": 199,
+          "drink_status": "REFUND INITIATED",
+          "action": "Refund"
+        },
+        {
+          "item_id": "C103",
+          "drink_name": "Pineapple Mojito",
+          "customisation": "Low Honey",
+          "amount": 199,
+          "drink_status": "REFUND COMPLETED",
+          "action": "Refund"
+        },
+        {
+          "item_id": "C104",
+          "drink_name": "Mint Lemonade",
+          "customisation": "Low Honey",
+          "amount": 199,
+          "drink_status": "SUCCESS",
+          "action": "Refund"
+        }
+      ]
+    },
+    {
+      "order_id": "OD102",
+      "date": "22/03/2023 14:12:45",
+      "machine_name": "Aahaar Stall 5 (WH105)",
+      "customer_info": {
+        "name": "Rahul Singh",
+        "contact_number": "9888888888",
+        "email": "rahul.singh@example.com"
+      },
+      "order_summary": {
+        "total_amount": 600,
+        "payment_id": "TX2042340284982",
+        "status": "SUCCESS",
+        "refund_info": {
+          "refund_transaction_id": "",
+          "status": "None"
+        }
+      },
+      "order_details": [
+        {
+          "item_id": "C105",
+          "drink_name": "Green Tea",
+          "customisation": "No Sugar",
+          "amount": 150,
+          "drink_status": "SUCCESS",
+          "action": "Refund"
+        },
+        {
+          "item_id": "C106",
+          "drink_name": "Lemon Iced Tea",
+          "customisation": "Extra Ice",
+          "amount": 150,
+          "drink_status": "SUCCESS",
+          "action": "Refund"
+        },
+        {
+          "item_id": "C107",
+          "drink_name": "Mango Smoothie",
+          "customisation": "Low Sugar",
+          "amount": 300,
+          "drink_status": "SUCCESS",
+          "action": "Refund"
+        }
+      ]
+    },
+    {
+      "order_id": "OD103",
+      "date": "23/03/2023 10:45:32",
+      "machine_name": "Aahaar Stall 7 (WH107)",
+      "customer_info": {
+        "name": "Priya Sharma",
+        "contact_number": "9777777777",
+        "email": "priya.sharma@example.com"
+      },
+      "order_summary": {
+        "total_amount": 450,
+        "payment_id": "TX3042340284983",
+        "status": "PENDING",
+        "refund_info": {
+          "refund_transaction_id": "",
+          "status": "None"
+        }
+      },
+      "order_details": [
+        {
+          "item_id": "C108",
+          "drink_name": "Choco Frappe",
+          "customisation": "Extra Choco",
+          "amount": 150,
+          "drink_status": "PENDING",
+          "action": "Refund"
+        },
+        {
+          "item_id": "C109",
+          "drink_name": "Caramel Macchiato",
+          "customisation": "Extra Caramel",
+          "amount": 150,
+          "drink_status": "PENDING",
+          "action": "Refund"
+        },
+        {
+          "item_id": "C110",
+          "drink_name": "Vanilla Latte",
+          "customisation": "Soy Milk",
+          "amount": 150,
+          "drink_status": "PENDING",
+          "action": "Refund"
+        }
+      ]
+    },
+    {
+      "order_id": "OD104",
+      "date": "24/03/2023 09:30:18",
+      "machine_name": "Aahaar Stall 9 (WH109)",
+      "customer_info": {
+        "name": "Amit Verma",
+        "contact_number": "9666666666",
+        "email": "amit.verma@example.com"
+      },
+      "order_summary": {
+        "total_amount": 350,
+        "payment_id": "TX4042340284984",
+        "status": "SUCCESS",
+        "refund_info": {
+          "refund_transaction_id": "",
+          "status": "None"
+        }
+      },
+      "order_details": [
+        {
+          "item_id": "C111",
+          "drink_name": "Cappuccino",
+          "customisation": "Extra Foam",
+          "amount": 150,
+          "drink_status": "SUCCESS",
+          "action": "Refund"
+        },
+        {
+          "item_id": "C112",
+          "drink_name": "Espresso",
+          "customisation": "Double Shot",
+          "amount": 200,
+          "drink_status": "SUCCESS",
+          "action": "Refund"
+        }
+      ]
+    },
+    {
+      "order_id": "OD105",
+      "date": "25/03/2023 15:22:10",
+      "machine_name": "Aahaar Stall 12 (WH112)",
+      "customer_info": {
+        "name": "Rohit Kumar",
+        "contact_number": "9555555555",
+        "email": "rohit.kumar@example.com"
+      },
+      "order_summary": {
+        "total_amount": 250,
+        "payment_id": "TX5042340284985",
+        "status": "REFUND INITIATED",
+        "refund_info": {
+          "refund_transaction_id": "TX5042340284985",
+          "status": "INITIATED"
+        }
+      },
+      "order_details": [
+        {
+          "item_id": "C113",
+          "drink_name": "Hot Chocolate",
+          "customisation": "Extra Cocoa",
+          "amount": 150,
+          "drink_status": "REFUND INITIATED",
+          "action": "Refund"
+        },
+        {
+          "item_id": "C114",
+          "drink_name": "Chai Latte",
+          "customisation": "No Sugar",
+          "amount": 100,
+          "drink_status": "REFUND INITIATED",
+          "action": "Refund"
+        }
+      ]
+    }
+  ]
+  

@@ -174,16 +174,15 @@ const SidebarWithHeader = () => {
 
   return (
     <Box minH="100vh" >
-      <SidebarContent onClose={onClose} hovered={hovered} setHovered={setHovered} />
+      <SidebarContent  onClose={onClose} hovered={hovered} setHovered={setHovered} />
       <Drawer isOpen={isOpen} placement="left" onClose={onClose} size="full">
         <DrawerOverlay>
           <DrawerContent>
             <Box
               transition={{ base: 'none', md: 'width 1s ease' }}
-              bg={useColorModeValue('white', 'gray.900')}
               borderRight="1px"
               borderRightColor={useColorModeValue('gray.200', 'gray.700')}
-              w={{ base: 'full', md: hovered ? 60 : '80px' }}
+              w={{ base: 'full', md: hovered ? "5px" : '80px' }}
               pos="fixed"
               h="full"
             >

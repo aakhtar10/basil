@@ -8,8 +8,10 @@ import {
   Td,
   TableContainer
 } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 const DataTable = ({ data }) => {
+
   return (
     <TableContainer
       boxShadow="rgba(0, 0, 0, 0.1) 0px 5px 15px"
@@ -35,17 +37,47 @@ const DataTable = ({ data }) => {
         <Tbody>
           {data.map((order, index) => (
             <Tr key={order.order_id || index}>
-              <Td py={1}>{index + 1}</Td>
-              <Td py={1}>{order.date.split(" ")[0]} <br /> {order.date.split(" ")[1]}</Td>
               <Td py={1}>
-                {order.machine_name.split(" ")[0]} {order.machine_name.split(" ")[1]} <br />
-                {order.machine_name.split(" ")[2]} {order.machine_name.split(" ")[3]}
+                <Link to={`/order/${order.order_id}`}>
+                  {index + 1}
+                </Link>
               </Td>
-              <Td py={1}>{order.order_id}</Td>
-              <Td py={1}>{order.customer_info.name}</Td>
-              <Td py={1}>{order.customer_info.contact_number}</Td>
-              <Td py={1}>{order.order_summary.total_amount.toFixed(2)}</Td>
-              <Td py={1}>{order.order_summary.status}</Td>
+              <Td py={1}>
+                <Link to={`/order/${order.order_id}`}>
+                  {order.date.split(" ")[0]} <br /> {order.date.split(" ")[1]}
+                </Link>
+              </Td>
+              <Td py={1}>
+                <Link to={`/order/${order.order_id}`}>
+                  {order.machine_name.split(" ")[0]} {order.machine_name.split(" ")[1]} <br />
+                  {order.machine_name.split(" ")[2]} {order.machine_name.split(" ")[3]}
+                </Link>
+              </Td>
+              <Td py={1}>
+                <Link to={`/order/${order.order_id}`}>
+                  {order.order_id}
+                </Link>
+              </Td>
+              <Td py={1}>
+                <Link to={`/order/${order.order_id}`}>
+                  {order.customer_info.name}
+                </Link>
+              </Td>
+              <Td py={1}>
+                <Link to={`/order/${order.order_id}`}>
+                  {order.customer_info.contact_number}
+                </Link>
+              </Td>
+              <Td py={1}>
+                <Link to={`/order/${order.order_id}`}>
+                  {order.order_summary.total_amount.toFixed(2)}
+                </Link>
+              </Td>
+              <Td py={1}>
+                <Link to={`/order/${order.order_id}`}>
+                  {order.order_summary.status}
+                </Link>
+              </Td>
             </Tr>
           ))}
         </Tbody>

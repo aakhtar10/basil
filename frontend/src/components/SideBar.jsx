@@ -37,6 +37,7 @@ import {
 import { Link, Route, Routes } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import Dashboard from '../pages/Dashboard';
+import OrderDetail from '../pages/OrderDetail';
 
 const LinkItems = [
   { name: 'Home', icon: FiHome, to: '/' },
@@ -207,6 +208,7 @@ const SidebarWithHeader = () => {
       <Box ml={{ base: 0, md: hovered ? 60 : 20 }} p="4">
        <Routes>
         <Route path="/" element={<Dashboard/>} />
+        <Route path ="/order/:id" element={<OrderDetail/>}/>
        </Routes>
       </Box>
     </Box>
